@@ -42,7 +42,8 @@ public class RestStudyConfig implements WebMvcConfigurer {
 
         ObjectMapper mapper = new ObjectMapper();
         //Registering Hibernate4Module to support lazy objects
-        mapper.registerModule(new Hibernate5Module());
+        Hibernate5Module hm = new Hibernate5Module();
+        mapper.registerModule(hm);
 
         messageConverter.setObjectMapper(mapper);
         return messageConverter;

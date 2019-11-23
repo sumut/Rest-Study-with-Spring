@@ -1,0 +1,185 @@
+[ {
+  "id" : 1000,
+  "streetAddress" : "1297 Via Cola di Rie",
+  "postalCode" : "00989",
+  "city" : "Roma",
+  "stateProvince" : null,
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 1100,
+  "streetAddress" : "93091 Calle della Testa",
+  "postalCode" : "10934",
+  "city" : "Venice",
+  "stateProvince" : null,
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 1200,
+  "streetAddress" : "2017 Shinjuku-ku",
+  "postalCode" : "1689",
+  "city" : "Tokyo",
+  "stateProvince" : "Tokyo Prefecture",
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 1300,
+  "streetAddress" : "9450 Kamiya-cho",
+  "postalCode" : "6823",
+  "city" : "Hiroshima",
+  "stateProvince" : null,
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 1400,
+  "streetAddress" : "2014 Jabberwocky Rd",
+  "postalCode" : "26192",
+  "city" : "Southlake",
+  "stateProvince" : "Texas",
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 1500,
+  "streetAddress" : "2011 Interiors Blvd",
+  "postalCode" : "99236",
+  "city" : "South San Francisco",
+  "stateProvince" : "California",
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 1600,
+  "streetAddress" : "2007 Zagora St",
+  "postalCode" : "50090",
+  "city" : "South Brunswick",
+  "stateProvince" : "New Jersey",
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 1700,
+  "streetAddress" : "2004 Charade Rd",
+  "postalCode" : "98199",
+  "city" : "Seattle",
+  "stateProvince" : "Washington",
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 1800,
+  "streetAddress" : "147 Spadina Ave",
+  "postalCode" : "M5V 2L7",
+  "city" : "Toronto",
+  "stateProvince" : "Ontario",
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 1900,
+  "streetAddress" : "6092 Boxwood St",
+  "postalCode" : "YSW 9T2",
+  "city" : "Whitehorse",
+  "stateProvince" : "Yukon",
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 2000,
+  "streetAddress" : "40-5-12 Laogianggen",
+  "postalCode" : "190518",
+  "city" : "Beijing",
+  "stateProvince" : null,
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 2100,
+  "streetAddress" : "1298 Vileparle (E)",
+  "postalCode" : "490231",
+  "city" : "Bombay",
+  "stateProvince" : "Maharashtra",
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 2200,
+  "streetAddress" : "12-98 Victoria Street",
+  "postalCode" : "2901",
+  "city" : "Sydney",
+  "stateProvince" : "New South Wales",
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 2300,
+  "streetAddress" : "198 Clementi North",
+  "postalCode" : "540198",
+  "city" : "Singapore",
+  "stateProvince" : null,
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 2400,
+  "streetAddress" : "8204 Arthur St",
+  "postalCode" : null,
+  "city" : "London",
+  "stateProvince" : null,
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 2500,
+  "streetAddress" : "Magdalen Centre, The Oxford Science Park",
+  "postalCode" : "OX9 9ZB",
+  "city" : "Oxford",
+  "stateProvince" : "Oxford",
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 2600,
+  "streetAddress" : "9702 Chester Road",
+  "postalCode" : "09629850293",
+  "city" : "Stretford",
+  "stateProvince" : "Manchester",
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 2700,
+  "streetAddress" : "Schwanthalerstr. 7031",
+  "postalCode" : "80925",
+  "city" : "Munich",
+  "stateProvince" : "Bavaria",
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 2800,
+  "streetAddress" : "Rua Frei Caneca 1360 ",
+  "postalCode" : "01307-002",
+  "city" : "Sao Paulo",
+  "stateProvince" : "Sao Paulo",
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 2900,
+  "streetAddress" : "20 Rue des Corps-Saints",
+  "postalCode" : "1730",
+  "city" : "Geneva",
+  "stateProvince" : "Geneve",
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 3000,
+  "streetAddress" : "Murtenstrasse 921",
+  "postalCode" : "3095",
+  "city" : "Bern",
+  "stateProvince" : "BE",
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 3100,
+  "streetAddress" : "Pieter Breughelstraat 837",
+  "postalCode" : "3029SK",
+  "city" : "Utrecht",
+  "stateProvince" : "Utrecht",
+  "country" : null,
+  "departments" : null
+}, {
+  "id" : 3200,
+  "streetAddress" : "Mariano Escobedo 9991",
+  "postalCode" : "11932",
+  "city" : "Mexico City",
+  "stateProvince" : "Distrito Federal,",
+  "country" : null,
+  "departments" : null
+} ]
