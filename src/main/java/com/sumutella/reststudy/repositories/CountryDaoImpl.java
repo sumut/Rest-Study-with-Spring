@@ -2,7 +2,6 @@ package com.sumutella.reststudy.repositories;
 
 import com.sumutella.reststudy.entities.Country;
 import com.sumutella.reststudy.entities.Location;
-import org.hibernate.Hibernate;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -28,9 +27,11 @@ public class CountryDaoImpl implements CountryDao {
     public List<Location> getLocations(String id) {
        Country country = sessionFactory.getCurrentSession().get(Country.class, id.toUpperCase());
 
-       Hibernate.initialize(country.getLocations());
+//       Hibernate.initialize(country.getLocations());
+//       return country.getLocations();
 
-       return country.getLocations();
+        return sessionFactory.getCurrentSession().createQuery("from Location where country =: country", Location.class)
+                .setParameter("country", country).getResultList();
 
     }
 }

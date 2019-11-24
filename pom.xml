@@ -15,10 +15,9 @@
 
   <properties>
     <springframework.version>5.2.0.RELEASE</springframework.version>
-    <springsecurity.version>5.2.0.RELEASE</springsecurity.version>
 
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.11</maven.compiler.source>
+    <maven.compiler.target>1.11</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -31,7 +30,7 @@
     </dependency>
 
 
-    <!-- fasterxml.jackson.core/jackson-databind -->
+    <!-- json->pojo , pojo->json -->
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
@@ -46,7 +45,7 @@
     </dependency>
 
 
-    <!-- Spring MVC support && rest -->
+    <!-- Spring MVC && rest support -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
@@ -67,7 +66,14 @@
       <version>9.0.1</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+    <!-- spring-orm -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-orm</artifactId>
+      <version>5.2.0.RELEASE</version>
+    </dependency>
+
+    <!-- ibernate-core -->
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-core</artifactId>
@@ -81,7 +87,12 @@
       <version>5.4.8.Final</version>
     </dependency>
 
-
+    <!-- C3PO -->
+    <dependency>
+      <groupId>com.mchange</groupId>
+      <artifactId>c3p0</artifactId>
+      <version>0.9.5.4</version>
+    </dependency>
 
 
 
@@ -94,11 +105,13 @@
 
 
 
-    <!-- https://mvnrepository.com/artifact/org.springframework/spring-orm -->
+
+
+    <!-- to compensate for java 9 not including jaxb -->
     <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-orm</artifactId>
-      <version>5.2.0.RELEASE</version>
+      <groupId>javax.xml.bind</groupId>
+      <artifactId>jaxb-api</artifactId>
+      <version>2.3.0</version>
     </dependency>
   </dependencies>
 

@@ -1,4 +1,4 @@
-package com.sumutella.reststudy.controllers;
+package com.sumutella.reststudy.restcontrollers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

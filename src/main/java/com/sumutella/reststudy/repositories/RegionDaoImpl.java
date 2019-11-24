@@ -28,7 +28,9 @@ public class RegionDaoImpl implements RegionDao {
     @Override
     public List<Country> getCountries(Integer id) {
         Region region = sessionFactory.getCurrentSession().get(Region.class, id);
-        Hibernate.initialize(region.getCountries());
-        return region.getCountries();
+//        Hibernate.initialize(region.getCountries());
+//        return region.getCountries();
+        return sessionFactory.getCurrentSession().createQuery("from Country where region=:region", Country.class).
+                setParameter("region", region).getResultList();
     }
 }

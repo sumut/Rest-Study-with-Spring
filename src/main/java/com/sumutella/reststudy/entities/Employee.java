@@ -1,6 +1,7 @@
 package com.sumutella.reststudy.entities;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
@@ -35,12 +36,13 @@ public class Employee {
     private Integer salary;
 
 
-    @ManyToOne(cascade={CascadeType.ALL})
+    @ManyToOne(cascade=CascadeType.ALL, fetch = FetchType.LAZY)
     @JoinColumn(name="manager_id")
     private Employee manager;
 
     @OneToMany(mappedBy="manager")
     private List<Employee> subordinates = new ArrayList<>();
+
 
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinColumn(name = "department_id")

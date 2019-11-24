@@ -2,6 +2,7 @@ package com.sumutella.reststudy.entities;
 
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
@@ -33,7 +34,8 @@ public class Department {
     @JoinColumn(name = "location_id")
     private Location location;
 
-    @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "department")
+    @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @JoinColumn(name = "employee_id")
     private List<Employee> employees = new ArrayList<>();
 
 

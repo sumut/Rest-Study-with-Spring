@@ -27,7 +27,9 @@ public class LocationDaoImpl implements LocationDao {
     @Override
     public List<Department> getDepartments(Integer id) {
         Location location = sessionFactory.getCurrentSession().get(Location.class, id);
-        Hibernate.initialize(location.getDepartments());
-        return location.getDepartments();
+//        Hibernate.initialize(location.getDepartments());
+//        return location.getDepartments();
+        return sessionFactory.getCurrentSession().createQuery("from Department where location=:location", Department.class)
+                .setParameter("location", location).getResultList();
     }
 }

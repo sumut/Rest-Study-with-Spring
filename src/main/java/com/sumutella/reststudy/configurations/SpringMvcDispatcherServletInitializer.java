@@ -2,6 +2,8 @@ package com.sumutella.reststudy.configurations;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
+import javax.servlet.ServletRegistration;
+
 /**
  * @author sumutella
  * @time 5:25 PM
@@ -22,5 +24,11 @@ public class SpringMvcDispatcherServletInitializer extends AbstractAnnotationCon
     @Override
     protected String[] getServletMappings() {
         return new String[]{"/"};
+    }
+
+    @Override
+    protected void customizeRegistration(ServletRegistration.Dynamic registration) {
+        boolean done = registration.setInitParameter("throwExceptionIfNoHandlerFound", "true"); // -> true
+        if(!done) throw new RuntimeException();
     }
 }

@@ -1,0 +1,135 @@
+[ {
+  "id" : 10,
+  "departmentName" : "Administration",
+  "manager" : null,
+  "location" : {
+    "id" : 1700,
+    "streetAddress" : "2004 Charade Rd",
+    "postalCode" : "98199",
+    "city" : "Seattle",
+    "stateProvince" : "Washington",
+    "country" : null,
+    "departments" : null
+  },
+  "employees" : null
+}, {
+  "id" : 30,
+  "departmentName" : "Purchasing",
+  "manager" : null,
+  "location" : 1700,
+  "employees" : null
+}, {
+  "id" : 90,
+  "departmentName" : "Executive",
+  "manager" : null,
+  "location" : 1700,
+  "employees" : null
+}, {
+  "id" : 100,
+  "departmentName" : "Finance",
+  "manager" : null,
+  "location" : 1700,
+  "employees" : null
+}, {
+  "id" : 110,
+  "departmentName" : "Accounting",
+  "manager" : null,
+  "location" : 1700,
+  "employees" : null
+}, {
+  "id" : 120,
+  "departmentName" : "Treasury",
+  "manager" : null,
+  "location" : 1700,
+  "employees" : null
+}, {
+  "id" : 130,
+  "departmentName" : "Corporate Tax",
+  "manager" : null,
+  "location" : 1700,
+  "employees" : null
+}, {
+  "id" : 140,
+  "departmentName" : "Control And Credit",
+  "manager" : null,
+  "location" : 1700,
+  "employees" : null
+}, {
+  "id" : 150,
+  "departmentName" : "Shareholder Services",
+  "manager" : null,
+  "location" : 1700,
+  "employees" : null
+}, {
+  "id" : 160,
+  "departmentName" : "Benefits",
+  "manager" : null,
+  "location" : 1700,
+  "employees" : null
+}, {
+  "id" : 170,
+  "departmentName" : "Manufacturing",
+  "manager" : null,
+  "location" : 1700,
+  "employees" : null
+}, {
+  "id" : 180,
+  "departmentName" : "Construction",
+  "manager" : null,
+  "location" : 1700,
+  "employees" : null
+}, {
+  "id" : 190,
+  "departmentName" : "Contracting",
+  "manager" : null,
+  "location" : 1700,
+  "employees" : null
+}, {
+  "id" : 200,
+  "departmentName" : "Operations",
+  "manager" : null,
+  "location" : 1700,
+  "employees" : null
+}, {
+  "id" : 210,
+  "departmentName" : "IT Support",
+  "manager" : null,
+  "location" : 1700,
+  "employees" : null
+}, {
+  "id" : 220,
+  "departmentName" : "NOC",
+  "manager" : null,
+  "location" : 1700,
+  "employees" : null
+}, {
+  "id" : 230,
+  "departmentName" : "IT Helpdesk",
+  "manager" : null,
+  "location" : 1700,
+  "employees" : null
+}, {
+  "id" : 240,
+  "departmentName" : "Government Sales",
+  "manager" : null,
+  "location" : 1700,
+  "employees" : null
+}, {
+  "id" : 250,
+  "departmentName" : "Retail Sales",
+  "manager" : null,
+  "location" : 1700,
+  "employees" : null
+}, {
+  "id" : 260,
+  "departmentName" : "Recruiting",
+  "manager" : null,
+  "location" : 1700,
+  "employees" : null
+}, {
+  "id" : 270,
+  "departmentName" : "Payroll",
+  "manager" : null,
+  "location" : 1700,
+  "employees" : null
+} ]

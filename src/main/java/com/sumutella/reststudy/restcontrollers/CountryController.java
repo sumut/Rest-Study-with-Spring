@@ -1,8 +1,8 @@
-package com.sumutella.reststudy.controllers;
+package com.sumutella.reststudy.restcontrollers;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.sumutella.reststudy.entities.Country;
 import com.sumutella.reststudy.entities.Location;
+import com.sumutella.reststudy.exceptionhandling.EntityNotFoundException;
 import com.sumutella.reststudy.services.CountryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -31,8 +31,12 @@ public class CountryController {
 
     @RequestMapping("/{countryId}")
     public List<Location> getLocationsInCountry(@PathVariable String countryId) {
-        return countryServiceImpl.getLocations(countryId);
+        List<Location> locationsInCustomCountry = countryServiceImpl.getLocations(countryId);
+        if (locationsInCustomCountry==null){
+            throw new EntityNotFoundException("There is no location with country code:" + countryId);
+        }
+        return locationsInCustomCountry;
     }
 
 
-    }
+}
